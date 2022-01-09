@@ -1,0 +1,6 @@
+// コンストラクタ記法
+// const regex = new RegExp('[^0-9]', 'g')
+
+
+// リテラル記法
+// const regex = /[^0-9]/g
