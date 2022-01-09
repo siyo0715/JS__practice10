@@ -1,0 +1,6 @@
+//パターン内でバックスラッシュを使う
+
+const pattern = /\posts\/*/
+
+
+const pattern = /^[a-zA-ZO-09]*@gmail\.com/

@@ -28,9 +28,10 @@
 
 // console.log(result[0])
 // __________________________________________________________________
+// x|yを使う(まず012があるかみに行く)
+// const pattern = /(012|56)/
+// const str = "0123456789"
+// const result = str.match(pattern)
 
-const pattern = /(012|56)/
-const str = "0123456789"
-const result = str.match(pattern)
+// console.log(result[0])
 
-console.log(result[0])
