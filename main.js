@@ -22,7 +22,14 @@
 // _________________________________________________________________
 
 // *5を使って5までの数字全部をマッチ
-const pattern = /[0-9]*5/
+// const pattern = /[0-9]*5/
+// const str = "0123456789"
+// const result = str.match(pattern)
+
+// console.log(result[0])
+// __________________________________________________________________
+
+const pattern = /(012|56)/
 const str = "0123456789"
 const result = str.match(pattern)
 
