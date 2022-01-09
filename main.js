@@ -35,6 +35,11 @@
 
 // console.log(result[0])
 
+
+
+// ___________________________________________________________________
+
+// RegExp.prototype.test()
 const abcmart = 'abcmart'
 const hijmart = 'hijmart'
 const regex = new RegExp('abc*')
