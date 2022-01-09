@@ -35,3 +35,11 @@
 
 // console.log(result[0])
 
+const abcmart = 'abcmart'
+const hijmart = 'hijmart'
+const regex = new RegExp('abc*')
+
+console.log(regex.test(abcmart))
+console.log(regex.test(hijmart))
+
+console.log(/abc*/.test(abcmart))
