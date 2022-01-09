@@ -6,7 +6,14 @@
 // console.log(result[0])
 
 // $で末尾の数字にマッチ
-const pattern = /[0-9]$/
+// const pattern = /[0-9]$/
+// const str = "0123456789"
+// const result = str.match(pattern)
+
+// console.log(result[0])
+
+// *を使って全部マッチ
+const pattern = /[0-9]*/
 const str = "0123456789"
 const result = str.match(pattern)
 
